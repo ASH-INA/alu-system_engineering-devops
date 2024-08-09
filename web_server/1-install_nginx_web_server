@@ -11,5 +11,5 @@ echo "Holberton School" > /var/www/html/index.html
 
 # Ensure the nginx service is running and configured correctly
 # The script must not use systemctl for restarting nginx, so use the following commands:
-systemctl start nginx
+nginx
 nginx -t && nginx -s reload
