@@ -36,3 +36,5 @@ printf %s "server {
 }" > /etc/nginx/sites-available/default
 
 service nginx restart
+sudo chown root:root /etc/nginx/sites-available/default
+sudo chmod 644 /etc/nginx/sites-available/default
